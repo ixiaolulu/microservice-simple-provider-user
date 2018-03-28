@@ -1,4 +1,4 @@
-package com.lulu.cloud;
+package com.lulu.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

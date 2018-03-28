@@ -1,4 +1,4 @@
-package com.lulu.cloud.entity;
+package com.lulu.user.entity;
 
 
 import javax.persistence.*;

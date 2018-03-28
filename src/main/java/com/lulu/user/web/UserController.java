@@ -1,7 +1,7 @@
-package com.lulu.cloud.web;
+package com.lulu.user.web;
 
-import com.lulu.cloud.entity.User;
-import com.lulu.cloud.repository.UserRepository;
+import com.lulu.user.entity.User;
+import com.lulu.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
