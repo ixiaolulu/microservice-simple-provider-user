@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: 8989
 spring:
   application:
     name: microservice-provider-user
@@ -18,9 +18,15 @@ logging:                                # 配置日志级别，让hibernate打�
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://admin:admin@localhost:8761/eureka/
   instance:
     prefer-ip-address: true
+    metadata-map:
+    #自定义的元数据，key/value可以随便写
+      my-metadata: 我自定义的元数据
+
+
