@@ -7,7 +7,6 @@ target/
 *.zip
 *.tar
 *.tar.gz
-/src/main/java/com/ciicgat/qrcode/ignore/
 # eclipse ignore
 .settings/
 .project
